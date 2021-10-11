@@ -1,3 +1,11 @@
+http://localhost:4000/graphql
+
+npm run dev
+
+npm run json:server
+
+
+
 query SongQuery($id:ID!) {
     song(id:$id) {
     	id
